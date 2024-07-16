@@ -1,9 +1,13 @@
-let int a = 9;
-let int b;
-let int c;
-let string w = "world";
-func main [j, k] #{
-  let int x = a;
-  let string broken = "hello";
-  return 0;
+let char a = "";
+func main[] {
+  let int x = 0;
+  let char y = "Hello World";
+  print(y);
+  
+  return x;
+};
+
+func test[char a] {
+  let char o = a;
+  return 1;
 };
